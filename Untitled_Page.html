@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Untitled_Page.js"></script>
+    <link rel="stylesheet" href="Untitled_Css.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script> <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script> <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="exit()">Back</button>
+        <center>
+            <h1 class="header">	
+                Untitled Talking Web
+            </h1>
+            <div style="text-align: left;margin-bottom: 70px;"> </div>
+        </center>
+    </div>
+    <div id="firebase-messages"></div>
+    <center>
+        <div id="allMensages">
+    
+        </div>
+        <div class="inputDivMessagePage">
+            
+            <label>Enviar:</label>
+            <input id="mensager">
+            <button class="btn btn-success" onclick="sendma()">Envair</button>
+        </div>
+    </center>
+    
+    <script src="kwitterPage.js"></script>
+</body>
+</html>
